@@ -12,6 +12,33 @@
       "AmplifyAppId": "d15hkbq1kecq8y"
     }
   },
+  "api": {
+    "turbospork": {
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            },
+            "authenticationType": "API_KEY"
+          }
+        },
+        "GraphQLAPIIdOutput": "5bdoimvginai5ao5hlhnjctuy4",
+        "GraphQLAPIEndpointOutput": "https://rt7ykbewzngj7mnbadm56hmoki.appsync-api.us-east-2.amazonaws.com/graphql",
+        "GraphQLAPIKeyOutput": "da2-gvbapofwwjha5pvfocjnj437gy"
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify9c8dae2a72584-staging-195823-deployment/amplify-cfn-templates/api/cloudformation-template.json",
+        "logicalId": "apiturbospork"
+      },
+      "lastPushTimeStamp": "2023-09-14T20:55:53.416Z",
+      "lastPushDirHash": "zYCY+xWhlDhFdW0Z7awWxMeSJ/A="
+    }
+  },
   "auth": {
     "turbosporkda7eb79e": {
       "customAuth": false,
@@ -45,34 +72,11 @@
         "IdentityPoolName": "turbosporkda7eb79e_identitypool_da7eb79e__staging",
         "UserPoolName": "turbosporkda7eb79e_userpool_da7eb79e"
       },
-      "lastPushTimeStamp": "2023-09-14T18:36:07.285Z",
+      "lastPushTimeStamp": "2023-09-14T20:55:50.868Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify9c8dae2a72584-staging-195823-deployment/amplify-cfn-templates/auth/turbosporkda7eb79e-cloudformation-template.json",
         "logicalId": "authturbosporkda7eb79e"
       }
-    }
-  },
-  "api": {
-    "turbospork": {
-      "service": "AppSync",
-      "providerPlugin": "awscloudformation",
-      "dependsOn": [],
-      "output": {
-        "authConfig": {
-          "defaultAuthentication": {
-            "authenticationType": "API_KEY",
-            "apiKeyConfig": {
-              "apiKeyExpirationDays": 7
-            }
-          },
-          "additionalAuthenticationProviders": []
-        }
-      },
-      "providerMetadata": {
-        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify9c8dae2a72584-staging-195823-deployment/amplify-cfn-templates/api/cloudformation-template.json",
-        "logicalId": "apiturbospork"
-      },
-      "lastPushTimeStamp": "2023-09-14T18:36:25.514Z"
     }
   }
 }

@@ -14,6 +14,9 @@
     "categories": {
       "auth": {
         "turbosporkda7eb79e": {}
+      },
+      "api": {
+        "turbospork": {}
       }
     }
   }
