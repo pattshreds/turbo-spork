@@ -111,7 +111,7 @@
             "ApiId"
           ]
         },
-        "Expires": 1695329655
+        "Expires": 1695334687
       }
     },
     "GraphQLAPINONEDS95A13CF0": {
@@ -312,6 +312,5 @@
         }
       }
     }
-  },
-  "Description": "{\"createdOn\":\"Mac\",\"createdBy\":\"Amplify\",\"createdWith\":\"12.4.0\",\"stackType\":\"api-AppSync\",\"metadata\":{}}"
+  }
 }

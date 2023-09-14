@@ -35,8 +35,8 @@
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify9c8dae2a72584-staging-195823-deployment/amplify-cfn-templates/api/cloudformation-template.json",
         "logicalId": "apiturbospork"
       },
-      "lastPushTimeStamp": "2023-09-14T20:55:53.416Z",
-      "lastPushDirHash": "zYCY+xWhlDhFdW0Z7awWxMeSJ/A="
+      "lastPushTimeStamp": "2023-09-14T22:19:45.404Z",
+      "lastPushDirHash": "bk2lHJgTwtwSVfY6lmQ+TCjl5Cc="
     }
   },
   "auth": {
@@ -72,11 +72,28 @@
         "IdentityPoolName": "turbosporkda7eb79e_identitypool_da7eb79e__staging",
         "UserPoolName": "turbosporkda7eb79e_userpool_da7eb79e"
       },
-      "lastPushTimeStamp": "2023-09-14T20:55:50.868Z",
+      "lastPushTimeStamp": "2023-09-14T22:19:42.895Z",
       "providerMetadata": {
         "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify9c8dae2a72584-staging-195823-deployment/amplify-cfn-templates/auth/turbosporkda7eb79e-cloudformation-template.json",
         "logicalId": "authturbosporkda7eb79e"
       }
+    }
+  },
+  "storage": {
+    "imagestorage": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "lastPushTimeStamp": "2023-09-14T22:19:45.404Z",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplify9c8dae2a72584-staging-195823-deployment/amplify-cfn-templates/storage/cloudformation-template.json",
+        "logicalId": "storageimagestorage"
+      },
+      "output": {
+        "BucketName": "turbospork8240b5461b6f49b5b143568b97ece083195823-staging",
+        "Region": "us-east-2"
+      },
+      "lastPushDirHash": "3PCVmKpIJg8bCptxJ2VoNwj05w0="
     }
   }
 }
