@@ -1,0 +1,7 @@
+{
+    "AppSyncApiName": "turbospork",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "S3DeploymentBucket": "amplify-amplify9c8dae2a72584-staging-195823-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/bf7bb47f8d9a9bf7c20ede2d06729a6c7ca89a5c"
+}
